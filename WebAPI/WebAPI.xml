@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.ProductsController.GetAll">
+            <summary>
+            Ürünlerin tamamının çekildiği method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.ProductsController.GetById(System.Int32)">
+            <summary>
+            Tek ürün çekildiği method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.ProductsController.Add(Entities.Concrete.Product)">
+            <summary>
+            Ürünlerin kayıt edildiği method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.ProductsController.Update(Entities.Concrete.Product)">
+            <summary>
+            Ürünlerin update edildiği method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.ProductsController.UpdateControl(Entities.Concrete.Product)">
+            <summary>
+            Ürünlerin update dilmeden önceki kontrolü
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
